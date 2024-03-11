@@ -1,0 +1,452 @@
+body {
+  overflow-x: hidden;
+}
+
+
+#logotext {
+  margin-left: 2px;
+  width: 400px;
+}
+
+.bg {
+  background-image: url(/img/bg_back.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+  height: 679px;
+  width: 1361px;
+  max-width: 1360px;
+  margin: 0;
+  z-index: -1;
+
+}
+
+#a {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+#a:hover {
+  border: 1px solid red;
+  color: darkgrey;
+
+}
+
+.nav-item {
+  margin-left: 170px;
+  font-size: 22px;
+
+}
+
+.button {
+  margin-right: 5px;
+  border-radius: 13px;
+  border-style: none;
+  color: #caa131;
+  width: 60px;
+
+}
+
+/* nav end  */
+#slogan1 {
+  margin-left: 68%;
+  margin-top: 14%;
+  color: rgb(196, 189, 189);
+  font-size: 60px;
+  font-family: "Nova Flat", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#slogan1_1 {
+  margin-left: 72%;
+  margin-top: -1%;
+  color: rgb(196, 189, 189);
+  font-size: 60px;
+  font-family: "Nova Flat", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#slogan2 {
+  margin-left: 73%;
+  margin-top: 2%;
+  color: white;
+  font-size: 28px;
+  font-family: "Playball", cursive;
+  font-weight: 0;
+  font-style: normal;
+}
+
+#slogan2::first-letter {
+  font-size: 200%;
+  color: #caa131;
+}
+
+
+
+/* 2nd container start */
+
+
+.models {
+  margin-top: 100px;
+}
+
+
+.Porsche_911_Carrera {
+  display: flex;
+}
+
+.img1 {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
+  background-color: black;
+  width: 35%;
+  transition: clip-path 1s ease-in-out;
+}
+
+.img1:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+#h911 {
+  margin-top: 70px;
+  margin-left: 38px;
+  font-size: 22px;
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#h911::first-line {
+  color: #caa131;
+}
+
+/* second car */
+
+.p718_cayman {
+  display: flex;
+}
+
+.img2 {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-color: black;
+  width: 35%;
+  transition: clip-path 1s ease-in-out;
+}
+
+.img2:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+#h718 {
+  margin-top: 70px;
+  margin-left: 38px;
+  font-size: 22px;
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#h718::first-line {
+  color: #caa131;
+}
+
+/* third  car start */
+
+.p911_Dakar {
+  display: flex;
+}
+
+.img3 {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-color: black;
+  width: 35%;
+  transition: clip-path 1s ease-in-out;
+}
+
+.img3:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+#h911d {
+  margin-top: 70px;
+  margin-left: 38px;
+  font-size: 22px;
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#h911d::first-line {
+  color: #caa131;
+}
+
+/* fourth car */
+
+.tayean_Turbo {
+  display: flex;
+}
+
+.img4 {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-color: black;
+  width: 35%;
+  transition: clip-path 1s ease-in-out;
+}
+
+.img4:hover {
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+#tt {
+  margin-top: 70px;
+  margin-left: 38px;
+  font-size: 20px;
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#tt::first-line {
+  color: #caa131;
+}
+
+
+.last {
+  margin-top: 30px;
+}
+
+#ex_text {
+  margin-left: 20px;
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.carousel {
+  width: 70%;
+  margin-left: 15%;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+
+
+
+
+/* 455
+750
+1080 */
+
+/* 
+@media only screen and (max-width:576px) {
+ 
+  .content {
+    width: 224%;
+    margin-left: 31%;
+    text-wrap: wrap;
+
+  }
+
+  .models {
+    width: 262%;
+
+  }
+
+  .last {
+    width: 260%;
+  }
+
+  hr {
+    width: 260%;
+  }
+}
+
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+  .content {
+    margin-left: -9%;   
+    width: 175%;
+  }
+
+  .models {
+    width: 180%;
+  }
+
+  .last {
+  width: 182%;
+  }
+  
+  hr {
+    width: 182%;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+  .content {
+    width: 137%;
+    text-wrap: wrap;
+  }
+
+  .models {
+    width: 135%;
+  }
+  
+  .last {
+    width: 135%;
+  }
+  
+  hr {
+    width: 135%;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+  .content {
+    width: 112%;
+  }
+
+  .models {
+    width: 112%;
+  }
+  
+  .last {
+    width: 112%;
+  }
+  
+  hr {
+    width: 112%;
+  }
+} */
+@media screen and (min-width: 425px) {
+  .content {
+    margin-left: 47%;
+    width: 175%;
+  }
+  .models {
+    width: 230%;
+
+  }
+
+  .last {
+    width: 230%;
+  }
+
+  hr {
+    width: 230%;
+  }
+  
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .content {
+    margin-left: 47%;
+    width: 175%;
+  }
+  .models {
+    width: 230%;
+
+  }
+
+  .last {
+    width: 230%;
+  }
+
+  hr {
+    width: 230%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .content {
+    margin-left: 40%;
+    width: 175%;
+  }
+
+  .models {
+    width: 225%;
+  }
+
+  .last {
+  width: 225%;
+  }
+  
+  hr {
+    width:225%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .content {
+    width: 135%;
+    text-wrap: wrap;
+    margin-left: 35%;
+  }
+
+  .models {
+    width: 175%;
+  }
+  
+  .last {
+    width: 176%;
+  }
+  
+  hr {
+    width: 176%;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .content {
+    width: 112%;
+    margin-left: 22%;
+  }
+
+  .models {
+    width: 136%;
+  }
+  
+  .last {
+    width: 137%;
+  }
+  
+  hr {
+    width: 137%;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .content {
+    width: 76%;
+
+  }
+
+  .models {
+    width: 99%;
+  }
+  
+  .last {
+    width: 100%;
+  }
+  
+  hr {
+    width: 100%;
+  }
+}
