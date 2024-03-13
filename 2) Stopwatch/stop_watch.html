@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/stop_watch.css">
+    <title>Stop Watch</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="watch">
+            <div class="outer_circle">
+                <div class="inner_circle">
+                    <span class="min">0 :</span>   
+                    <span class="sec">&nbsp; 0 :</span>
+                    <span class="msce">&nbsp; 0</span>
+                </div>
+
+                <!-- 01 :     &nbsp;47 :    &nbsp;97  -->
+
+            </div>
+            <div class="button_wrapper">
+                <button class="reset hidden" >Reset</button>
+                <button class="play">Play</button>
+                <button id="lb" class="lap hidden">Lap</button>
+            </div>
+        </div>
+
+<ul class="laps">
+    <!-- <li class="lap_item">
+        <span class="number">#1</span>
+        <span class="time_stamp"> 01 : 30 : 09</span>
+    </li>
+    <li class="lap_item">
+        <span class="number">#1</span>
+        <span class="time_stamp"> 01 : 30 : 09</span>
+    </li>
+    <li class="lap_item">
+        <span class="number">#1</span>
+        <span class="time_stamp"> 01 : 30 : 09</span>
+    </li>
+    <li class="lap_item">
+        <span class="number">#1</span>
+        <span class="time_stamp"> 01 : 30 : 09</span>
+    </li> -->
+    <button class="clear hidden">Clear All</button>
+</ul>
+
+    </div>
+
+
+    <script src="/js/stop_watch.js"></script>
+</body>
+
+</html>

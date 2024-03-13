@@ -1,0 +1,149 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vh;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch {
+    margin-left: 128%;
+}
+
+.outer_circle {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation-bg {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, orange, #23a6d5, #23b5ab);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+
+    }
+
+}
+
+.inner_circle {
+    width: 230px;
+    height: 230px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.min {
+    font-size: 30px;
+}
+
+.sec {
+    font-size: 30px;
+}
+
+.msce {
+    font-size: 20px;
+}
+
+.button_wrapper {
+    width: 250px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.laps {
+    list-style: none;
+    color: white;
+    height: 250px;
+    width: 250px;
+    overflow: auto;
+    position: relative;
+    padding: 15px;
+    margin-top: 30px;
+    left: 128%;
+    /* overflow-x: hidden; */
+}
+
+.laps::-webkit-scrollbar {
+    display: none;
+}
+
+.lap_item {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 50px;
+    margin-bottom: 35px;
+}
+
+.number {
+    color: white;
+}
+
+.time_stamp {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.clear {
+    position: absolute;
+    display: block;
+    width: 130px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    z-index: 1000;
+    padding: 10px 0;
+    border-radius: 50px;
+    background-color: rgba(236, 217, 217, 0.247);
+    transform: translate(-50%);
+}
+
+.hidden {
+    visibility: hidden;
+}
