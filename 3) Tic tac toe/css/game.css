@@ -1,0 +1,121 @@
+nav {
+    display: flex;
+    height: 55px;
+    width: 102%;
+    margin-top: -8px;
+    margin-left: -8px;
+    /* background-color: rgba(255, 145, 0, 0.507); */
+    /* border: 1px solid rgb(156, 156, 156); */
+}
+
+.ico {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.textico {
+    margin-left: 13px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+    margin-top: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    border: 2px solid black;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgba(187, 211, 211, 0.452);
+    border-color: rgba(247, 0, 0, 0.425);
+}
+
+.gameInfo {
+    padding: 0 34px;
+}
+
+
+.imgbox {
+    display: flex;
+    
+}
+
+.imgbox img {
+    width: 0;
+}
+
+/* utility class */
+
+.br-0 {
+    border-right: 0;
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.bt-0 {
+    border-top: 0;
+}
+
+.bb-0 {
+    border-bottom: 0;
+}
+
+.info{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#reset {
+    width: 50px;
+    height: 30px;
+    background-color: yellow;
+    /* border: none; */
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.line{
+    background-color: black;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background-color: #911d91;
+    transition: width 1s ease-in-out;
+}
+
+@media screen and (max-width:1000px) {
+
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+    .container{
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 16vw);
+        grid-template-rows: repeat(3, 16vw);
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    
+}
